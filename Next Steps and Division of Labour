@@ -1,8 +1,8 @@
 // Next Steps and Division of Labour 
 
 
-	/ Easy enough to fake your birthday or gender while remaining a subscriber...
-
-	/ Except when you decide to use the same sate every single time. 
-
-	/ Blue Bikes was used multiple times by a 130 year old man, making them either 
+	/ Use publicly available data to see that, 
+	/ given a postal code, 
+	/ given an age, given a gender, 
+	/ we can produce the bike commute records of an 
+	/ individual in that area including the number of candidates it could be 
