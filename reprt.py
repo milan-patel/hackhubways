@@ -1,5 +1,6 @@
 import csv
 import os
+import sys
 
 multicol = {}
 hit=0
@@ -13,7 +14,7 @@ with open("rt.csv") as csv_file:
         else:
             multicol[sig]=1
 for k in list(multicol.keys()):
-    if(multicol[k]<50):
+    if(multicol[k]<int(sys.argv[1])):
         del multicol[k];
 
 print(multicol)
