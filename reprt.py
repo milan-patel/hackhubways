@@ -2,6 +2,8 @@ import csv
 import os
 import sys
 
+num = int(input("Enter a number: "))
+
 multicol = {}
 hit=0
 with open("rt.csv") as csv_file:
@@ -14,8 +16,8 @@ with open("rt.csv") as csv_file:
         else:
             multicol[sig]=1
 for k in list(multicol.keys()):
-    if(multicol[k]<int(sys.argv[1])):
-        del multicol[k];
+    if(multicol[k]<num):
+        del multicol[k]; 
 
 print(multicol)
 print(len(multicol))
