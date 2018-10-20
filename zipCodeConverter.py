@@ -51,7 +51,21 @@ def stationIDindex():
                 # writes the StationID and Zip Code to the output CSV
                 outcsv.write(row[3]+','+findZipCode(d['lat'],d['lng'])+'\n')
     return
-                
+            
+            
+def stationsByZipCode(z):
+    # returns a list of stationIDs contained within a Zip Code
+    output = []
+    zipCode = str(z)
+    csv_file = open("stationIDzipcodes.csv", 'r')
+    csv_reader = csv.reader(csv_file)
+    for row in csv_reader:
+        if(z == row[1]):
+            output.append(row[0])
+    return output 
+
+
+
 
 
 
