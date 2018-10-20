@@ -9,7 +9,7 @@ with open(sys.argv[1]) as csv_file:
     spec_hit = 0
     outcsv = open(date[0]+'_out.csv', 'w')
     for row in csv_reader:
-        if(row[13]=='1969' or row[14]=='0' or row[0]=='tripduration'):
+        if(row[13]=='1969' or row[14]=='0' or row[0]=='tripduration' or row[12]=='Customer'):
             reject_count+=1
         else:
             if(len(sys.argv)>3 and row[3]==sys.argv[2] and row[7]==sys.argv[3]):
