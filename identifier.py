@@ -11,10 +11,6 @@ from zipCodeConverter import *
 from datetime import datetime
 from datetime import timedelta
 
-# To determine how long the algorithm takes to run
-import timeit
-start = timeit.default_timer()
-
 def convertStrToDateTime(s):
     s = datetime.strptime(s, "%Y-%m-%d %H:%M:%S.%f")
     return s
@@ -83,7 +79,7 @@ def groupTrips(lst):
                 break
     return destinations
 
-def writeIndDataToCSV():
+def writeIndDataToCSV(demo,zipCode,csv_files):
     title = "Biking Commute Data for "
     if(demo[2] == 2):
         title += "Females "
@@ -97,12 +93,6 @@ def writeIndDataToCSV():
         writer.writerow(header)
         for row in entries:
             writer.writerow(row)
-    return title
-
-writeIndDataToCSV()
-            
-# Times the algorithm. Generally want it to complete in under 5 seconds            
-stop = timeit.default_timer()
-print('Time: ', stop - start)  
+    return title 
 
 
