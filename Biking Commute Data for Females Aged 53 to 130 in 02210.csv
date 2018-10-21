@@ -1,0 +1,17 @@
+tripduration,starttime,stoptime,start station id,start station name,start station latitude,start station longitude,end station id,end station name,end station latitude,end station longitude,bikeid,usertype,birth year,gender
+625,2018-07-12 07:00:09.644000,2018-07-12 07:10:34.754000,150,State Street at Channel Center,42.344137,-71.052608,23,Boston City Hall - 28 State St,42.35892,-71.057629,2641,Subscriber,1961,2
+616,2018-07-12 16:53:45.150000,2018-07-12 17:04:01.894000,23,Boston City Hall - 28 State St,42.35892,-71.057629,150,State Street at Channel Center,42.344137,-71.052608,1245,Subscriber,1961,2
+601,2018-07-16 07:17:02.707000,2018-07-16 07:27:04.638000,150,State Street at Channel Center,42.344137,-71.052608,23,Boston City Hall - 28 State St,42.35892,-71.057629,2128,Subscriber,1961,2
+775,2018-07-16 17:08:44.184000,2018-07-16 17:21:39.449000,23,Boston City Hall - 28 State St,42.35892,-71.057629,150,State Street at Channel Center,42.344137,-71.052608,2032,Subscriber,1961,2
+614,2018-07-21 10:40:07.713000,2018-07-21 10:50:22.163000,24,Seaport Square - Seaport Blvd at Northern Ave,42.35148193460858,-71.04436084628105,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,2435,Subscriber,1956,2
+823,2018-07-21 17:15:58.847000,2018-07-21 17:29:42.326000,40,Lewis Wharf at Atlantic Ave,42.363871,-71.050877,24,Seaport Square - Seaport Blvd at Northern Ave,42.35148193460858,-71.04436084628105,2893,Subscriber,1956,2
+533,2018-07-30 07:19:46.087000,2018-07-30 07:28:39.796000,150,State Street at Channel Center,42.344137,-71.052608,23,Boston City Hall - 28 State St,42.35892,-71.057629,2066,Subscriber,1961,2
+750,2018-07-30 17:14:04.647000,2018-07-30 17:26:35.178000,23,Boston City Hall - 28 State St,42.35892,-71.057629,150,State Street at Channel Center,42.344137,-71.052608,2670,Subscriber,1961,2
+593,2018-08-02 06:49:33.926000,2018-08-02 06:59:27.485000,150,State Street at Channel Center,42.344137,-71.052608,23,Boston City Hall - 28 State St,42.35892,-71.057629,3140,Subscriber,1961,2
+640,2018-08-02 16:47:13.942000,2018-08-02 16:57:54.876000,23,Boston City Hall - 28 State St,42.35892,-71.057629,150,State Street at Channel Center,42.344137,-71.052608,1953,Subscriber,1961,2
+659,2018-08-07 07:36:16.070000,2018-08-07 07:47:15.742000,150,State Street at Channel Center,42.344137,-71.052608,23,Boston City Hall - 28 State St,42.35892,-71.057629,1157,Subscriber,1961,2
+729,2018-08-07 17:15:56.710000,2018-08-07 17:28:06.448000,23,Boston City Hall - 28 State St,42.35892,-71.057629,150,State Street at Channel Center,42.344137,-71.052608,3252,Subscriber,1961,2
+569,2018-09-17 11:12:23.013000,2018-09-17 11:21:52.617000,150,State Street at Channel Center,42.344137,-71.052608,43,Rowes Wharf at Atlantic Ave,42.357143,-71.050699,3904,Subscriber,1957,2
+666,2018-09-17 17:41:17.356000,2018-09-17 17:52:24.222000,43,Rowes Wharf at Atlantic Ave,42.357143,-71.050699,150,State Street at Channel Center,42.344137,-71.052608,3382,Subscriber,1957,2
+627,2018-09-27 06:41:24.494000,2018-09-27 06:51:51.866000,150,State Street at Channel Center,42.344137,-71.052608,23,Boston City Hall - 28 State St,42.35892,-71.057629,2909,Subscriber,1961,2
+534,2018-09-27 16:21:07.660000,2018-09-27 16:30:01.882000,23,Boston City Hall - 28 State St,42.35892,-71.057629,150,State Street at Channel Center,42.344137,-71.052608,4013,Subscriber,1961,2
