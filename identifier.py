@@ -11,8 +11,8 @@ from zipCodeConverter import *
 from datetime import datetime
 from datetime import timedelta
 
+# To determine how long the algorithm takes to run
 import timeit
-
 start = timeit.default_timer()
 
 def convertStrToDateTime(s):
@@ -20,17 +20,16 @@ def convertStrToDateTime(s):
     return s
     
 
-# search through all time stamps for 35-54yo females biking between two stations
-# on weekdays, leaving between 7-10AM and departing 6-10 hours after their arrival
-# over the last 3 months
+# search through all time stamps for [AN AGE GROUP] of [A GENDER (ONE OF MALE OR FEMALE)] biking 
+# between two stations, leaving their home and returning roughly 6-10 hours after their departure
 
 header = ['tripduration', 'starttime', 'stoptime', 'start station id', 'start station name', 'start station latitude', 'start station longitude', 'end station id', 'end station name', 'end station latitude', 'end station longitude','bikeid', 'usertype', 'birth year', 'gender'] 
 
 csv_files = ["rawdata/201807-bluebikes-tripdata.csv","rawdata/201808-bluebikes-tripdata.csv","rawdata/201809-bluebikes-tripdata.csv"]
 
 # Possible stations within the South Boston Waterfront Area Zip code
-zipCode = "02210"
-demo = [1983,1964,1] # 
+zipCode = "02134"
+demo = [1983,1964,2] # 
 
 def findTrips(demo, zipCode, csv_file_names):
            # demo is of the form List(Int, Int, Int)
@@ -98,13 +97,12 @@ def writeIndDataToCSV():
         writer.writerow(header)
         for row in entries:
             writer.writerow(row)
-    return
+    return title
 
 writeIndDataToCSV()
-
+            
 # Times the algorithm. Generally want it to complete in under 5 seconds            
 stop = timeit.default_timer()
-            
 print('Time: ', stop - start)  
 
 
